@@ -69,15 +69,13 @@ span:hover+.rest{
 }
 
 .content1{
-  height: 190vh;
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content1 img{
-  width: 70%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto 2em auto;
 }
 
 .content1 p{
