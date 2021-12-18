@@ -2,11 +2,17 @@
 
 /* HEADER  */
 header{
-  height: 10vh;
+  margin: 0;
+  padding: 0;
+  height: 4em;
 }
 
 header h1{
-  font-size: 1em;
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-shadow: 0px 0px 0px transparent;
 }
 
 /* BAR NAV */
@@ -18,7 +24,9 @@ nav{
 
 nav a{
   margin: auto;
+  font-weight: normal;
 }
+
 
 /* MAIN */
 
@@ -61,7 +69,7 @@ span:hover+.rest{
 }
 
 .content1{
-  height: 160vh;
+  height: 190vh;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-gap: 0px;
@@ -97,4 +105,5 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: .8em;
 }
