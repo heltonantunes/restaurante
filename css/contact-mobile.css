@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* HEADER  */
+header{
+  height: 10vh;
+}
+
+header h1{
+  font-size: 1em;
+}
+
+/* BAR NAV */
+
+nav{
+  position: relative;
+  flex-direction: column;
+}
+
+nav a{
+  margin: auto;
+}
+
+/* MAIN */
+
+.main{
+  width: 90%;
+  text-align: center;
+}
+
+.main h1{
+  width: 100%;
+  font-size: 1em;
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/* HEADER  */
+header{
+  height: 10vh;
+}
+
+header h1{
+  font-size: 1em;
+}
+
+/* BAR NAV */
+
+nav{
+  position: relative;
+  flex-direction: column;
+}
+
+nav a{
+  margin: auto;
+}
+
+/* MAIN */
+
+main{
+  width: 100%;
+  display: grid;
+  grid-template-areas: 
+  "main"
+  "vinho"
+  "cortes";
+}
+
+/* ASIDE-LEFT */
+
+#aside-left{
+  grid-area: vinho;
+  width: 90%;
+  margin: 0 auto 1em auto;
+}
+
+/* SPAN AND HOVER */
+
+span:hover+.rest{
+  display: block;
+  width: 300px;
+  position: absolute;
+  left: 80px;
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.912);
+  color: #fff;
+  padding: 1em;
+}
+
+/* MIDDLE */
+
+#middle{
+  width: 90%;
+  margin: 0 auto 1em auto;
+  grid-area: main;
+}
+
+.content1{
+  height: 160vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.content1 img{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.content1 p{
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ASIDE-RIGHT */
+
+#aside-right{
+  grid-area: cortes;
+  width: 90%;
+  margin: auto;
+}
+
+#aside-right img{
+  width: 60%;
+}
+
+/* FOOTER */
+
+footer{
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
